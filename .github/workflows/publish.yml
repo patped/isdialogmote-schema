@@ -2,7 +2,7 @@ name: Publish avro schemas for isdialogmote
 on:
   push:
     branches:
-      - master
+      - avro
     paths:
       - 'src/main/avro/dialogmote_status_endring.avsc'
       - 'gradle.properties'
