@@ -1,2 +1,2 @@
-# isdialogmote-schema
-AVRO schemas for application Isdialogmote
+# isdialogmoteschema
+AVRO schemas for Isdialogmote
