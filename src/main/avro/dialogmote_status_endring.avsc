@@ -4,14 +4,14 @@
   "name": "KDialogmoteStatusEndring",
   "fields": [
     { "name": "dialogmoteUuid", "type": "string", "logicalType": "uuid"},
-    { "name": "dialogmoteTidspunkt", "type": "int", "logicalType": "date" },
+    { "name": "dialogmoteTidspunkt", "type": "long", "logicalType": "date" },
     { "name": "statusEndringType", "type": "string" },
-    { "name": "statusEndringTidspunkt", "type": "int", "logicalType": "date" },
+    { "name": "statusEndringTidspunkt", "type": "long", "logicalType": "date" },
     { "name": "personIdent", "type": "string" },
     { "name": "virksomhetsnummer", "type": "string" },
     { "name": "enhetNr", "type": "string" },
     { "name": "navIdent", "type": "string" },
-    { "name": "tilfelleStartdato", "type": "int", "logicalType": "date" },
+    { "name": "tilfelleStartdato", "type": "long", "logicalType": "date" },
     { "name": "arbeidstaker", "type": "boolean" },
     { "name": "arbeidsgiver", "type": "boolean" },
     { "name": "sykmelder", "type": "boolean" }
